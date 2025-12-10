@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Folder</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="logo">📂 Study Folder</div>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search files and folders...">
+      </div>
+      <div class="controls">
+        <select id="sortSelect">
+          <option value="name-asc">Name (A-Z)</option>
+          <option value="name-desc">Name (Z-A)</option>
+          <option value="date-desc">Newest First</option>
+          <option value="size-desc">Largest First</option>
+        </select>
+        <div class="filters">
+            <label><input type="checkbox" value="folder" checked> Folders</label>
+            <label><input type="checkbox" value="image" checked> Images</label>
+            <label><input type="checkbox" value="pdf" checked> PDFs</label>
+            <label><input type="checkbox" value="notebook" checked> Notebooks</label>
+            <label><input type="checkbox" value="text" checked> Text</label>
+            <label><input type="checkbox" value="other" checked> Other</label>
+        </div>
+      </div>
+    </header>
+
+    <nav class="breadcrumbs" id="breadcrumbs">
+      <!-- Injected by JS -->
+    </nav>
+
+    <main class="grid-container" id="grid">
+      <!-- Injected by JS -->
+    </main>
+
+    <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+        <button id="loadMoreBtn">Load More</button>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div id="modalBody"></div>
+        <div class="modal-footer">
+            <a id="modalDownloadLink" href="#" target="_blank" class="btn">Download / Raw</a>
+            <a id="modalGithubLink" href="#" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

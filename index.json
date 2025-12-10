@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d",
+    "name": "README.md",
+    "path": "README.md",
+    "type": "text",
+    "mime": "text/markdown",
+    "size_bytes": 2264,
+    "updated_at": "2025-12-10T12:24:14.168Z",
+    "thumbnail_path": null,
+    "preview_url": null,
+    "github_raw_url": null,
+    "checksum": null
+  },
+  {
+    "id": "0398ccd0f49298b10a3d76a47800d2ebecd49859",
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "type": "other",
+    "mime": "application/octet-stream",
+    "size_bytes": 1070,
+    "updated_at": "2025-12-10T12:24:14.168Z",
+    "thumbnail_path": null,
+    "preview_url": null,
+    "github_raw_url": null,
+    "checksum": null
+  }
+]
