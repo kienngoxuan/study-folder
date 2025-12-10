@@ -1,0 +1,19 @@
+{
+  "name": "study-folder",
+  "version": "1.0.0",
+  "description": "Static GitHub Pages site that mirrors a local folder tree",
+  "scripts": {
+    "build": "npm run scan && npx @11ty/eleventy",
+    "scan": "node scripts/scan.js",
+    "serve": "npx @11ty/eleventy --serve",
+    "generate-samples": "node scripts/generate_samples.js"
+  },
+  "dependencies": {
+    "glob": "^10.3.10",
+    "mime-types": "^2.1.35",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
